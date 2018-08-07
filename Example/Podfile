@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LPPodTest_Tests' do
+  pod 'LPPodTest', :path => '../'
+  
+  
+end
