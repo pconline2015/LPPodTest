@@ -11,6 +11,7 @@
 		1F3B36A5AC97538F427FAD9F44B94F87 /* LPPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71E2D59F2C6B64BFC0A14FE157568 /* LPPodTest-dummy.m */; };
 		276985E2375BCF8EDEC2C37ACD4610AF /* Pods-LPPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D10902BDB1497BE6E6399D3E5189624B /* Pods-LPPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ADFE0D9CECA9D2D31A6E247990E2051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4C297DEE211ACCD0000E515C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C297DED211ACCD0000E515C /* WebKit.framework */; };
 		96886B3356F9BCD85813F48F051323B7 /* LPPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16B14CDB577F8D419AB8697D58584A3 /* LPPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A532774DF72D870F71B623FE57225F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DE1480A7D879270E0E83C469FA2F1A2E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1B09C61263D219CBFDD8B047CC3A6 /* ReplaceMe.m */; };
@@ -33,6 +34,7 @@
 		36F0008458285BCE56D56C7AF87D0F3F /* LPPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LPPodTest.xcconfig; sourceTree = "<group>"; };
 		370BA6D2B8BBC193626DF452013B30C7 /* Pods-LPPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		3EB0C38CF65AD5798E1F4240A38E750F /* Pods-LPPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C297DED211ACCD0000E515C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		64093A0EBA514B592AE54C26AF8EED4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		65F1B09C61263D219CBFDD8B047CC3A6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LPPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C297DEE211ACCD0000E515C /* WebKit.framework in Frameworks */,
 				4ADFE0D9CECA9D2D31A6E247990E2051 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +133,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C297DED211ACCD0000E515C /* WebKit.framework */,
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
