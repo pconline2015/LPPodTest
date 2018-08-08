@@ -11,6 +11,8 @@
 		1F3B36A5AC97538F427FAD9F44B94F87 /* LPPodTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71E2D59F2C6B64BFC0A14FE157568 /* LPPodTest-dummy.m */; };
 		276985E2375BCF8EDEC2C37ACD4610AF /* Pods-LPPodTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D10902BDB1497BE6E6399D3E5189624B /* Pods-LPPodTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ADFE0D9CECA9D2D31A6E247990E2051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4C297DEB211A992D000E515C /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C297DE9211A992D000E515C /* Student.h */; };
+		4C297DEC211A992D000E515C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C297DEA211A992D000E515C /* Student.m */; };
 		96886B3356F9BCD85813F48F051323B7 /* LPPodTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16B14CDB577F8D419AB8697D58584A3 /* LPPodTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A532774DF72D870F71B623FE57225F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DE1480A7D879270E0E83C469FA2F1A2E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F1B09C61263D219CBFDD8B047CC3A6 /* ReplaceMe.m */; };
@@ -27,21 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0219C205FE21B65AF7D150C20BC0C006 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0219C205FE21B65AF7D150C20BC0C006 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1DF71E2D59F2C6B64BFC0A14FE157568 /* LPPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LPPodTest-dummy.m"; sourceTree = "<group>"; };
-		33E62335B7853E070945854E80689DAA /* LPPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPPodTest.framework; path = LPPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E62335B7853E070945854E80689DAA /* LPPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F0008458285BCE56D56C7AF87D0F3F /* LPPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LPPodTest.xcconfig; sourceTree = "<group>"; };
 		370BA6D2B8BBC193626DF452013B30C7 /* Pods-LPPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		3EB0C38CF65AD5798E1F4240A38E750F /* Pods-LPPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C297DE9211A992D000E515C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		4C297DEA211A992D000E515C /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		64093A0EBA514B592AE54C26AF8EED4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64093A0EBA514B592AE54C26AF8EED4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		65F1B09C61263D219CBFDD8B047CC3A6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LPPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		67338E712275BEFEEFA031668F7DE630 /* Pods-LPPodTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPPodTest_Tests-resources.sh"; sourceTree = "<group>"; };
 		7735BE02FC83CE98A8A763C2044F0A11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C23CBB677D8932CF4BBAB509EA659F6 /* Pods_LPPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPPodTest_Tests.framework; path = "Pods-LPPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C23CBB677D8932CF4BBAB509EA659F6 /* Pods_LPPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE47A704BEE37637723DB0AABD36573 /* Pods-LPPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LPPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A03C9E0F80397E2ABB797673DC2A5FD0 /* LPPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LPPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03C9E0F80397E2ABB797673DC2A5FD0 /* LPPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LPPodTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B682227220F41E42E9EE7129B8ADF302 /* Pods-LPPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C124BD32A5220F2548AE6554E1146777 /* Pods-LPPodTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPPodTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CC85574BB4FCE0F6C5F1D6F69D224D60 /* LPPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LPPodTest.modulemap; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				65F1B09C61263D219CBFDD8B047CC3A6 /* ReplaceMe.m */,
 				C4B50552D768D81FB79748C55B6CB50B /* Pod */,
 				DDA7E056A26B5DBF48F74C9FBC308AC1 /* Support Files */,
+				4C297DE9211A992D000E515C /* Student.h */,
+				4C297DEA211A992D000E515C /* Student.m */,
 			);
 			name = LPPodTest;
 			path = ../..;
@@ -193,6 +199,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C297DEB211A992D000E515C /* Student.h in Headers */,
 				96886B3356F9BCD85813F48F051323B7 /* LPPodTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				1F3B36A5AC97538F427FAD9F44B94F87 /* LPPodTest-dummy.m in Sources */,
 				DE1480A7D879270E0E83C469FA2F1A2E /* ReplaceMe.m in Sources */,
+				4C297DEC211A992D000E515C /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
